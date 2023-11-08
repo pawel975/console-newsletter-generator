@@ -9,11 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Templates\newsletter-template.html" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Templates\newsletter-template.html" />
+    <Folder Include="Templates\" />
   </ItemGroup>
+	
 
 </Project>

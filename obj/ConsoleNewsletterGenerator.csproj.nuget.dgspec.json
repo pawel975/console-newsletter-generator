@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pawel\\source\\repos\\csVSProjects\\console-newsletter-generator\\ConsoleNewsletterGenerator.csproj": {}
+    "C:\\Users\\pawel\\source\\repos\\csVSProjects\\ConsoleNewsletterGenerator\\ConsoleNewsletterGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pawel\\source\\repos\\csVSProjects\\console-newsletter-generator\\ConsoleNewsletterGenerator.csproj": {
+    "C:\\Users\\pawel\\source\\repos\\csVSProjects\\ConsoleNewsletterGenerator\\ConsoleNewsletterGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\console-newsletter-generator\\ConsoleNewsletterGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\ConsoleNewsletterGenerator\\ConsoleNewsletterGenerator.csproj",
         "projectName": "ConsoleNewsletterGenerator",
-        "projectPath": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\console-newsletter-generator\\ConsoleNewsletterGenerator.csproj",
+        "projectPath": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\ConsoleNewsletterGenerator\\ConsoleNewsletterGenerator.csproj",
         "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\console-newsletter-generator\\obj\\",
+        "outputPath": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\ConsoleNewsletterGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

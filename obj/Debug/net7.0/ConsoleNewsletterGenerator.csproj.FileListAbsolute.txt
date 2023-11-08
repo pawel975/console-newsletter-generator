@@ -1,0 +1,17 @@
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ConsoleNewsletterGenerator.csproj.AssemblyReference.cache
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ConsoleNewsletterGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ConsoleNewsletterGenerator.AssemblyInfoInputs.cache
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ConsoleNewsletterGenerator.AssemblyInfo.cs
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ConsoleNewsletterGenerator.csproj.CoreCompileInputs.cache
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\bin\Debug\net7.0\ConsoleNewsletterGenerator.exe
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\bin\Debug\net7.0\ConsoleNewsletterGenerator.deps.json
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\bin\Debug\net7.0\ConsoleNewsletterGenerator.runtimeconfig.json
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\bin\Debug\net7.0\ConsoleNewsletterGenerator.dll
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\bin\Debug\net7.0\ConsoleNewsletterGenerator.pdb
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ConsoleNewsletterGenerator.csproj.CopyComplete
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ConsoleNewsletterGenerator.dll
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\refint\ConsoleNewsletterGenerator.dll
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ConsoleNewsletterGenerator.pdb
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ConsoleNewsletterGenerator.genruntimeconfig.cache
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ref\ConsoleNewsletterGenerator.dll

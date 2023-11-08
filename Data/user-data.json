@@ -1,37 +1,37 @@
 [
   {
-    "id": 1,
-    "user_name": "John Doe",
-    "user_email": "john@example.com",
-    "personal_discount": 10,
-    "sign_up_date": "2022-01-15"
+    "Id": 1,
+    "Name": "John Doe",
+    "Email": "john@example.com",
+    "Discount": 10,
+    "MemberSinceDate": "2022-01-15"
   },
   {
-    "id": 2,
-    "user_name": "Alice Smith",
-    "user_email": "alice@example.com",
-    "personal_discount": 15,
-    "sign_up_date": "2022-03-05"
+    "Id": 2,
+    "Name": "Alice Smith",
+    "Email": "alice@example.com",
+    "Discount": 15,
+    "MemberSinceDate": "2022-03-05"
   },
   {
-    "id": 3,
-    "user_name": "Bob Johnson",
-    "user_email": "bob@example.com",
-    "personal_discount": 5,
-    "sign_up_date": "2022-04-20"
+    "Id": 3,
+    "Name": "Bob Johnson",
+    "Email": "bob@example.com",
+    "Discount": 5,
+    "MemberSinceDate": "2022-04-20"
   },
   {
-    "id": 4,
-    "user_name": "Eva Brown",
-    "user_email": "eva@example.com",
-    "personal_discount": 20,
-    "sign_up_date": "2022-07-10"
+    "Id": 4,
+    "Name": "Eva Brown",
+    "Email": "eva@example.com",
+    "Discount": 20,
+    "MemberSinceDate": "2022-07-10"
   },
   {
-    "id": 5,
-    "user_name": "David Wilson",
-    "user_email": "david@example.com",
-    "personal_discount": 25,
-    "sign_up_date": "2022-09-30"
+    "Id": 5,
+    "Name": "David Wilson",
+    "Email": "david@example.com",
+    "Discount": 25,
+    "MemberSinceDate": "2022-09-30"
   }
 ]
