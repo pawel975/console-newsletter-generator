@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hFtNSndNgbBuor/ruLHcSpwnlE5dd5CusYSqgjUeWBocr0iC8Znku+lbxQXwxND6Pc5nJOZ8VRVcQcrBuvQxKQ==",
+  "dgSpecHash": "Qj5PXceYb4c6F3Vd5fGuRBfEGemp6dgH7JzOYLsdppJIA5v8KhHRqBjI9+8VAEZtDvm1cSoTo/GbZtVxLEPJ4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\console-newsletter-generator\\console-newsletter-generator.csproj",
+  "projectFilePath": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\console-newsletter-generator\\ConsoleNewsletterGenerator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

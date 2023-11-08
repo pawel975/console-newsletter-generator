@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\console-newsletter-generator\\console-newsletter-generator.csproj",
-      "projectName": "console-newsletter-generator",
-      "projectPath": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\console-newsletter-generator\\console-newsletter-generator.csproj",
+      "projectUniqueName": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\console-newsletter-generator\\ConsoleNewsletterGenerator.csproj",
+      "projectName": "ConsoleNewsletterGenerator",
+      "projectPath": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\console-newsletter-generator\\ConsoleNewsletterGenerator.csproj",
       "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pawel\\source\\repos\\csVSProjects\\console-newsletter-generator\\obj\\",
       "projectStyle": "PackageReference",
