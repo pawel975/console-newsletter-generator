@@ -9,4 +9,5 @@ namespace ConsoleNewsletterGenerator
     public class NewsletterGenerator
     {
     }
+
 }
