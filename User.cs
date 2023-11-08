@@ -13,5 +13,14 @@ namespace ConsoleNewsletterGenerator
         public string Email { get; set; }
         public int Discount { get; set; }
         public DateTime MemeberSinceDate { get; set; }
+
+        public User(int id, string name, string email, int discount)
+        {
+            Id = id;
+            Name = name;
+            Email = email;
+            Discount = discount;
+            MemeberSinceDate = DateTime.Now;
+        }
     }
 }
