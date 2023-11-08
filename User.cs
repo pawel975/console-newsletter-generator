@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace console_newsletter_generator
+namespace ConsoleNewsletterGenerator
 {
     public class User
     {
