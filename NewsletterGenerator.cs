@@ -4,32 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleNewsletterGenerator
+namespace ConsoleNewsletterGenerator;
+
+public class NewsletterGenerator
 {
-    public class NewsletterGenerator
+    // TODO: Possibly will delete this property
+    static private string HTMLTemplate { get; set; }
+
+    // TODO: Possibly will change this function to return html file string
+    static void ReadHTMLTemplate(string templatePath)
     {
-        // TODO: Possibly will delete this property
-        static private string HTMLTemplate { get; set; }
+        //TODO: Check if template has .html extension
+        string fileExtension = Path.GetExtension(templatePath);
 
-        // TODO: Possibly will change this function to return html file string
-        static void ReadHTMLTemplate(string templatePath)
+        if (File.Exists(templatePath) && fileExtension.Equals(".html", StringComparison.OrdinalIgnoreCase))
         {
-            //TODO: Check if template has .html extension
-            string fileExtension = Path.GetExtension(templatePath);
-
-            if (File.Exists(templatePath) && fileExtension.Equals(".html", StringComparison.OrdinalIgnoreCase))
-            {
-                File.WriteAllText(templatePath, HTMLTemplate);
-            }
-        }
-
-        // TODO: placeholders dictionary should contain placeholder-value pairs
-        static string FillTemplate(Dictionary<string, string> placeholders) 
-        {
-            string filledTemplate = default;
-
-            return filledTemplate;
+            File.WriteAllText(templatePath, HTMLTemplate);
         }
     }
 
+    // TODO: placeholders dictionary should contain placeholder-value pairs
+    static string FillTemplate(Dictionary<string, string> placeholders) 
+    {
+        string filledTemplate = default;
+
+        return filledTemplate;
+    }
 }
