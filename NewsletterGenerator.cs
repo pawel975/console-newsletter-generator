@@ -8,26 +8,88 @@ namespace ConsoleNewsletterGenerator;
 
 public class NewsletterGenerator
 {
-    // TODO: Possibly will delete this property
-    static private string HTMLTemplate { get; set; }
+    private string HTMLTemplate = default;
+    private string FilledOutTemplate = default;
 
-    // TODO: Possibly will change this function to return html file string
-    static void ReadHTMLTemplate(string templatePath)
+    public string GenerateNewsletter(string templatePath, User user)
     {
-        //TODO: Check if template has .html extension
-        string fileExtension = Path.GetExtension(templatePath);
+        ReadHTMLTemplate(templatePath);
+        FillTemplate(user);
 
-        if (File.Exists(templatePath) && fileExtension.Equals(".html", StringComparison.OrdinalIgnoreCase))
+        if (FilledOutTemplate != null)
         {
-            File.WriteAllText(templatePath, HTMLTemplate);
+            return FilledOutTemplate;
+        } else
+        {
+            return null;
         }
     }
 
-    // TODO: placeholders dictionary should contain placeholder-value pairs
-    static string FillTemplate(Dictionary<string, string> placeholders) 
+    /// <summary>
+    /// Reads html file from given path and saves it to NewsletterGenerator
+    /// </summary>
+    /// <param name="templatePath"></param>
+    /// <returns>HTML file parsed to string</returns>
+    private void ReadHTMLTemplate(string templatePath)
     {
-        string filledTemplate = default;
+        //TODO: Check if template has .html extension
+        string fileExtension = Path.GetExtension(templatePath);
+        try
+        {
+            if (File.Exists(templatePath) && fileExtension.Equals(".html", StringComparison.OrdinalIgnoreCase))
+            {
+                File.WriteAllText(templatePath, HTMLTemplate);
+            }
+            else
+            {
+                throw new Exception();
+            }
 
-        return filledTemplate;
+        }
+        catch (Exception ex)
+        {
+            HTMLTemplate = default;
+            Console.WriteLine("\n" + ex.Message);
+            Console.WriteLine("\n" + ex.StackTrace);
+            
+        }
+
+    }
+
+    private void FillTemplate(User user)
+    {
+        Type objType = user.GetType();
+        var properties = objType.GetProperties();
+
+        List<string> allNewsletterPlaceholders = new List<string>();
+        
+        NewsletterPlaceholders[] enumNames = (NewsletterPlaceholders[])Enum.GetValues(typeof(NewsletterPlaceholders));
+        foreach (var enumName in enumNames)
+        {
+            allNewsletterPlaceholders.Add(enumName.ToString());
+        }
+
+        try
+        {
+            FilledOutTemplate = new string(HTMLTemplate.ToCharArray());
+
+            foreach (var property in properties)
+            {
+                if (allNewsletterPlaceholders.Contains(property.Name))
+                {
+                    string propValue = (string)property.GetValue(user);
+                    FilledOutTemplate.Replace($"[{property}]", propValue);
+                }
+                else
+                {
+                    throw new Exception();
+                }
+            }
+        } catch (Exception ex)
+        {
+            FilledOutTemplate = default;
+            Console.WriteLine("\n" + ex.Message);
+            Console.WriteLine("\n" + ex.StackTrace);
+        }
     }
 }
