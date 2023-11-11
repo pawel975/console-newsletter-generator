@@ -38,7 +38,7 @@ public class NewsletterGenerator
         {
             if (File.Exists(templatePath) && fileExtension.Equals(".html", StringComparison.OrdinalIgnoreCase))
             {
-                File.WriteAllText(templatePath, HTMLTemplate);
+                HTMLTemplate = File.ReadAllText(templatePath);
             }
             else
             {
@@ -71,19 +71,16 @@ public class NewsletterGenerator
 
         try
         {
-            FilledOutTemplate = new string(HTMLTemplate.ToCharArray());
+            FilledOutTemplate = new String(HTMLTemplate);
 
             foreach (var property in properties)
             {
                 if (allNewsletterPlaceholders.Contains(property.Name))
                 {
-                    string propValue = (string)property.GetValue(user);
-                    FilledOutTemplate.Replace($"[{property}]", propValue);
+                    string propValue = property.GetValue(user).ToString();
+                    FilledOutTemplate = FilledOutTemplate.Replace($"[{property.Name}]", propValue);
                 }
-                else
-                {
-                    throw new Exception();
-                }
+                
             }
         } catch (Exception ex)
         {

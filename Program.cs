@@ -14,9 +14,8 @@ class Program
         NewsletterGenerator newsletterGenerator = new NewsletterGenerator();
         
         string templatePath = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"..\..\..\Templates\newsletter-template.html"));
-        Console.WriteLine(templatePath);
 
         var newsletter = newsletterGenerator.GenerateNewsletter(templatePath, user);
-        Console.WriteLine(newsletter);
+        File.WriteAllText(@"C:\Users\pawel\Desktop\example.html", newsletter);
     }
 }

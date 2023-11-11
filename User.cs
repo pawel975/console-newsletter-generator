@@ -12,7 +12,7 @@ public class User
     public string Name { get; set; }
     public string Email { get; set; }
     public int Discount { get; set; }
-    public DateTime MemeberSinceDate { get; set; }
+    public DateTime MemberSinceDate { get; set; }
 
     public User(int id, string name, string email, int discount)
     {
@@ -20,6 +20,6 @@ public class User
         Name = name;
         Email = email;
         Discount = discount;
-        MemeberSinceDate = DateTime.Now;
+        MemberSinceDate = DateTime.Now;
     }
 }
