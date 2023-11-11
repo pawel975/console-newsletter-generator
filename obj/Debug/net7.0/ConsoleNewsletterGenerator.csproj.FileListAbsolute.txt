@@ -15,3 +15,4 @@ C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\ne
 C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ConsoleNewsletterGenerator.pdb
 C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ConsoleNewsletterGenerator.genruntimeconfig.cache
 C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\obj\Debug\net7.0\ref\ConsoleNewsletterGenerator.dll
+C:\Users\pawel\source\repos\csVSProjects\ConsoleNewsletterGenerator\bin\Debug\net7.0\HtmlAgilityPack.dll
